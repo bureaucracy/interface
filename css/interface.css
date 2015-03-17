@@ -1,0 +1,49 @@
+html, body {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  background-color: #eee;
+  padding: 20px;
+}
+
+h1, h2 {
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+}
+
+h1, h2, p, a, span {
+  font-family: Inconsolata;
+}
+
+p, a, span {
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+
+#info {
+  background-color: #111;
+  color: #eee;
+  display: inline-block;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  padding: 2px 5px;
+}
+
+.click {
+  cursor: pointer;
+}
+
+.click:hover {
+  background-color: #ccc;
+}
+
+#views > * {
+  display: none;
+}
+
+#views > .active {
+  display: block;
+}
